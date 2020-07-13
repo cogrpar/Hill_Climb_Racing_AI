@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="278fef5b-e070-4f38-918f-33792b18895d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ebypMK0m5TmegK8kEHn4p2lEdu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\owenr\PycharmProjects\Hill_Climb_Racing_AI\input_data\angle_detection\trainingData" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.trainingDataGenerator">
+    <configuration name="python3" type="PythonConfigurationType" factoryName="Python">
+      <module name="Hill_Climb_Racing_AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\owenr\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trainingDataGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Hill_Climb_Racing_AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\owenr\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/input_data/angle_detection" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/input_data/angle_detection/trainingDataGenerator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.python3" />
+      <item itemvalue="Python.trainingDataGenerator" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.trainingDataGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="278fef5b-e070-4f38-918f-33792b18895d" name="Default Changelist" comment="" />
+      <created>1594604768832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594604768832</updated>
+    </task>
+    <task id="LOCAL-00001" summary="This code is a separate neural network that is trained to detect the angle of the car and power meter">
+      <created>1594604885784</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594604885784</updated>
+    </task>
+    <task id="LOCAL-00002" summary="This code is a separate neural network that is trained to detect the angle of the car and power meter">
+      <created>1594617714714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594617714714</updated>
+    </task>
+    <task id="LOCAL-00003" summary="This code is a separate neural network that is trained to detect the angle of the car and power meter">
+      <created>1594617733322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594617733322</updated>
+    </task>
+    <task id="LOCAL-00004" summary="This code is a separate neural network that is trained to detect the angle of the car and power meter">
+      <created>1594617762099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594617762099</updated>
+    </task>
+    <task id="LOCAL-00005" summary="This code is a separate neural network that is trained to detect the angle of the car and power meter">
+      <created>1594617814720</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594617814720</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This code is a separate neural network that is trained to detect the angle of the car and power meter" />
+    <option name="LAST_COMMIT_MESSAGE" value="This code is a separate neural network that is trained to detect the angle of the car and power meter" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="94" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594608732116">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="94" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1594608732116" />
+    <state x="349" y="0" key="#trainingDataGenerator" timestamp="1594608754713">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="349" y="0" key="#trainingDataGenerator/0.0.1280.760@0.0.1280.760" timestamp="1594608754713" />
+    <state x="420" y="135" key="FileChooserDialogImpl" timestamp="1594608730619">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="420" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1594608730619" />
+    <state width="1259" height="189" key="GridCell.Tab.0.bottom" timestamp="1594617739165">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1259" height="189" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1594617739165" />
+    <state width="1259" height="189" key="GridCell.Tab.0.center" timestamp="1594617739165">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1259" height="189" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1594617739165" />
+    <state width="1259" height="189" key="GridCell.Tab.0.left" timestamp="1594617739165">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1259" height="189" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1594617739165" />
+    <state width="1259" height="189" key="GridCell.Tab.0.right" timestamp="1594617739165">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1259" height="189" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1594617739165" />
+    <state x="423" y="114" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1594617711748">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="423" y="114" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.760@0.0.1280.760" timestamp="1594617711748" />
+  </component>
+</project>
