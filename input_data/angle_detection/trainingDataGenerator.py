@@ -35,4 +35,4 @@ for num in range(5):
         blackTemp = black
         blackTemp.paste(imgRotated, (0,0))
         #save the image
-        blackTemp.save("trainingData/rotations/p" + str(num) + "rot" + str(i) + ".png")
+        blackTemp.save("trainingData/rotations/p" + str(num) + "/p" + str(num) + "rot" + str(i) + ".png")
