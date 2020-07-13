@@ -1,0 +1,1 @@
+This code is a separate neural network that is trained to detect the angle of the car and power meter
