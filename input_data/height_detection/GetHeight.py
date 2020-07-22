@@ -1,4 +1,4 @@
-# this code is used to determine the cars height from the screenshot
+# this code is used to determine the car's height from the screenshot
 from PIL import Image
 
 def getHeight (screenshot):
@@ -58,7 +58,7 @@ def getHeight (screenshot):
     gy = 0
     for y in range(80):
         r, g, b, trash = (image.getpixel((cx, y)))
-        if (r < 180 and g > 200 and b < 100):  # if this pixel is red
+        if (r < 180 and g > 200 and b < 100):  # if this pixel is green
             gy = y
             break
 

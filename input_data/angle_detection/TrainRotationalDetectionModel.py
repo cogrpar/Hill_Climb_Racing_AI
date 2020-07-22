@@ -1,12 +1,9 @@
-import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Activation, Dense
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.metrics import categorical_crossentropy
-from tensorflow.keras.layers import Activation, Dense, Flatten, BatchNormalization, Conv2D, MaxPool2D
-import numpy as np
 import GenerateInputArrays
+import numpy as np
+import tensorflow as tf
+from tensorflow.keras.layers import Dense, Flatten, Conv2D, MaxPool2D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.optimizers import Adam
 
 # set all layers to float 64
 tf.keras.backend.set_floatx('float64')
