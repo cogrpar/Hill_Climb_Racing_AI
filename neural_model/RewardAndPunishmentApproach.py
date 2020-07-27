@@ -41,7 +41,7 @@ except:
 print("fetched model")
 
 # initalize the value of n, which is the delay interval
-n = 0.7
+n = 1
 # initalize the correct percentage as 0 percent
 p = 0
 success = 0
@@ -62,10 +62,10 @@ while True:
     gameData = ExtractTrainingData.screenshot.extractData()
 
     # now arrange the training data and make a prediction
-    data[0].append(gameData.tolist())
     gameData = gameData.reshape((1, 130))
     pedal = model.predict(gameData) # 0 is brake 1 is gas
     pedal = np.argmax(pedal)
+    gameData = gameData.reshape((130))
 
     # execute the prediction
     if (pedal == 0): # press brake (left arrow)
@@ -94,35 +94,31 @@ while True:
         stop = 0
         print("could not read distance")
         read = False
-    if (not dead):
-        if (read == False): # if the distance can't be read, just give the ai points for not dying
-            progress = True
-            print("right")
-            success += 1
-        elif (stop - start > 1):
-            progress = True
-            print("right")
-            success += 1
+
+    if (read == True):
+        if (not dead):
+            if (stop - start > 1):
+                data[0].append(gameData.tolist())
+                progress = True
+                print("right")
+                success += 1
+            else:
+                data[0].append(gameData.tolist())
+                progress = False
+                print("wrong")
         else:
+            data[0].append(gameData.tolist())
             progress = False
             print("wrong")
-    else:
-        progress = False
-        print("wrong")
 
-    # use that information to set the training answer to the correct state
-    if (progress):
-        correctPrediction = pedal
-    else:
-        correctPrediction = not(pedal)
+        # use that information to set the training answer to the correct state
+        if (progress):
+            correctPrediction = pedal
+        else:
+            correctPrediction = not(pedal)
 
-    # append that state to the data array
-    data[1].append(int(correctPrediction))
-
-    # update the data file
-    dataWrite = open("RAPATrainingData.txt", "w")
-    dataWrite.write(str(data))
-    dataWrite.close()
+        # append that state to the data array
+        data[1].append(int(correctPrediction))
 
     if (dead):
         # now that we have died, we should pause to train the network a bit, and then restart
@@ -133,7 +129,7 @@ while True:
             data[1][steps] = int(not(data[1][steps]))
             steps += 1
         # prepare the model to be trained
-        model.compile(optimizer=Adam(learning_rate=0.007), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+        model.compile(optimizer=Adam(learning_rate=0.001), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
         # train the model
         d1 = data[1]
         d0 = data[0]
@@ -145,15 +141,26 @@ while True:
         output = np.array(data[1])
         output = output.reshape((len(data[1]), 1))
         print(output.shape)
-        model.fit(x=input, y=output, batch_size=40, epochs=1000, verbose=2)
+        if (len(data[1]) < 100):
+            batchSize = int(len(data[1]) / 5)
+        else:
+            batchSize = 30
+        model.fit(x=input, y=output, batch_size=batchSize, epochs=400, verbose=2)
         # save the model state
         model.save('RAPAModel.h5')
+        # update the data file
+        dataWrite = open("RAPATrainingData.txt", "w")
+        dataWrite.write(str(data))
+        dataWrite.close()
         # restart the game by pressing space twice
         for i in range(2):
             keys.press(Key.space)
             sleep(1)
             keys.release(Key.space)
             sleep(1)
+        p = 0
+        success = 0
+        iterations = 1
 
     # calculate the success rate and print it
     p = success / iterations

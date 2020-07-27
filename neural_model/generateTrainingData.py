@@ -17,7 +17,7 @@ dataStr = data.read()
 dataStr = "data = " + dataStr
 
 exec(dataStr)
-play = False # set to true to record a run and set to false to train the network
+play = True # set to true to record a run and set to false to train the network
 
 if play:
     while True:

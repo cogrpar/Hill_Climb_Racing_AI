@@ -34,7 +34,7 @@ distance = 0
 # declare a new list to store the data from this run
 currentData = [[], []]
 
-# initialize the top score to be 800m
+# initialize the top score to be 600m
 best = 600
 
 sleep(5)
